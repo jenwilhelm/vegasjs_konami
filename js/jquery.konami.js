@@ -12,6 +12,7 @@
     	keys.push( e.keyCode );
     	if ( keys.toString().indexOf( konami ) >= 0  ) {
     		// Konami code! Do something cool
+    		keys = [];
     		$('#konami').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/qqJ9Q2jXENU?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
     	}
     });
